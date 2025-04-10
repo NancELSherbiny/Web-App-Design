@@ -1,21 +1,20 @@
-Web App Design (Figma to Code)
+# 🌐 Web App - Figma to Code
 
-This project is a simple web application designed in Figma and developed using HTML, CSS, and JavaScript. The design was implemented to closely match the original Figma prototype, focusing on responsive layout and clean UI/UX.
+This is a simple and responsive web application built based on a design created in **Figma**. The project is developed using **HTML**, **CSS**, and **JavaScript**, aiming to accurately reflect the original Figma design while maintaining clean and maintainable code.
 
-🔧 Technologies Used
-HTML5
+---
 
-CSS3
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript 
+- Figma (Design Tool)
 
-JavaScript (Vanilla)
+---
 
-Figma (for design)
-
-📁 Features
-Fully responsive design
-
-Interactive elements using JavaScript
-
-Pixel-perfect implementation from Figma
-
+## 💡 Features
+- ✨ Clean and modern UI
+- 📱 Fully responsive design for all screen sizes
+- 🔄 Interactive elements using JavaScript
+- 🎯 Pixel-perfect implementation from Figma
 
