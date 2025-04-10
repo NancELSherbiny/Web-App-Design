@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Find Your New Bestie</title>
+    </head>
+    
+<body>
+  <section class = "main">
+    <h1 class = "title">Find your <br> New Bestie </h1>
+    <p class="title-p">The most amazing list of adoptable pets at your <br>fingertips. Updated fresh daily.</p>
+    <div class = "buttons">
+        <button class = "b1">View pets</button>
+        <button class = "b2">Manage pets</button>
+    </div>
+    <section class ="cards">
+        <div class="cards-div">
+            <i class="fa-solid fa-sun"></i>
+            <h3>Sunny play</h3>
+            <p>Our center is located in beautiful Miami, and it’s currently 84°F at our pet playground.</p>
+        </div>
+        <div class="cards-div">
+            <i class="fa-solid fa-face-kiss-wink-heart"></i>
+            <h3>Dedicated Staff</h3>
+            <p>Our center has over 70 volunteers who play with the pets four times daily.</p>
+        </div>
+        <div class="cards-div">
+            <i class="fa-solid fa-trophy"></i>
+            <h3>Voted #1</h3>
+            <p>For the last five years we’ve consistently been voted the #1 pet adoption center in the state.</p>
+        </div>
+        <div class="cards-div">
+            <i class="fa-solid fa-moon"></i>
+            <h3>Nightly Yoga</h3>
+            <p>Every night our staff leads a yoga session and the animals are free to roam around and relax around people.</p>
+        </div>
+    </section>
+</section>
+
+<section class="friends">
+    <h2 class="info">Meet our friends</h2>
+    <div class="show">
+      <span>show me:</span>
+      <a href="#">All pets</a>
+      <u>Only dogs</u>
+      <u>Only cats</u>
+    </div>
+  
+    <div class="info-cards">
+        <div class="pet-card" onclick="PopUp(this)">
+            <img class ="img-in-card" src="images/dog1.jpg" alt="Barksalot">
+            <div class="card-content">
+              <div class="card-header">
+                <p class="pet-name">Barksalot</p>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="description">Barksalot is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.</p>
+              <p class="age">2 years old</p>
+            </div>
+          </div>
+
+          <div class="pet-card" onclick="PopUp(this)">
+            <img class ="img-in-card" src="images/dog2.jpg" alt="Woof">
+            <div class="card-content">
+              <div class="card-header">
+                <p class="pet-name">Woof</p>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="description">Woof is a very talkative and sweet pup. She loves beets, plums, cuddles, and jumping over low fences.</p>
+              <p class="age">Less than a year old</p>
+            </div>
+          </div>
+          
+          <div class="pet-card" onclick="PopUp(this)">
+            <img class ="img-in-card" src="images/cat1.jpg" alt="Meowsalot">
+            <div class="card-content">
+              <div class="card-header">
+                <p class="pet-name">Meowsalot</p>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="description">Meowsalot is the most talkative cat we’ve ever come across. Constant meowing, chirping and purring!</p>
+              <p class="age">1 year old</p>
+            </div>
+          </div>
+          
+          <div class="pet-card" onclick="PopUp(this)">
+            <img class ="img-in-card" src="images/cat2.jpg" alt="Purrsloud">
+            <div class="card-content">
+              <div class="card-header">
+                <p class="pet-name">Purrsloud</p>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="description">Purrsloud has the loudest and most relaxing purr that’s come through our center. Come hear it yourself.</p>
+              <p class="age">4 years old</p>
+            </div>
+          </div>
+    </div>  
+ 
+</section>
+
+<div class="pop-up">
+  <i class="fa-solid fa-xmark" ></i>
+  <div class="row">
+    <div class="pic">
+      <img class ="img-in-pop" src="images/dog1.jpg" alt="Dog">
+      <div class="info-in-pic">
+        <p>Thank you for your interest in</p>
+        <h3>Barksalot.</h3>
+      </div>
+    </div>
+    <div class="col-input">
+      <input class="text-field" placeholder="Name">
+      <input class="text-field" placeholder="Email Address">
+      <input class="text-field" placeholder="What is the word for a baby dog?">
+      <textarea class="comment" placeholder="Comment (optional)"></textarea>
+      <button>Submit</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p class = "footer">© 2023 Fake Adoption Center. All rights reserved.</p>
+</footer>
+    
+<script src ="script.js"></script>
+</body>
+</html>
